@@ -5,10 +5,22 @@ import Image from "next/image";
 export default function Home() {
   const movies = [
     {
-      title: "Devara: Part 1",
-      rating: "⭐ 4.2 / 5",
-      poster: "https://upload.wikimedia.org/wikipedia/en/f/f2/Devara_Part_1_poster.jpg",
-      summary: "An intense sea saga blending myth, emotion, and action – Jr NTR dominates every frame.",
+      title: "One Battle After Another",
+    rating: "⭐ 3.7 / 5",
+    poster: "https://upload.wikimedia.org/wikipedia/en/2/2a/War_movie_poster_2024.jpg", // placeholder image
+    summary: "A fierce clash between loyalties and survival — non-stop action and intense drama.",
+    },
+    {
+    title: "Tron: Ares",
+    rating: "⭐ 3.8 / 5",
+    poster: "https://upload.wikimedia.org/wikipedia/en/f/f3/Tron_Ares_temp_poster.jpg",
+    summary: "A futuristic digital rebellion continues — visually stunning sci-fi action thriller.",
+    },
+    {
+    title: "Salaar: Cease Fire",
+    rating: "⭐ 4.1 / 5",
+    poster: "https://upload.wikimedia.org/wikipedia/en/3/3f/Salaar_Part_1_%E2%80%93_Ceasefire.jpg",
+    summary: "Prabhas returns in a dark, violent epic. Prashanth Neel’s trademark world-building.",
     },
     {
       title: "Pushpa 2: The Rule",
@@ -53,7 +65,7 @@ export default function Home() {
       </section>
 
       <footer className="w-full text-center py-6 border-t border-gray-800 text-gray-500 text-sm">
-        © {new Date().getFullYear()} CineReel. Non-commercial hobby site created by Mrudhulraj Bommala.
+        © {new Date().getFullYear()} CineReelHub. Non-commercial hobby site.
       </footer>
     </main>
   );
