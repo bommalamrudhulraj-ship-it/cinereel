@@ -17,6 +17,12 @@ export default function Home() {
     summary: "A futuristic digital rebellion continues — visually stunning sci-fi action thriller.",
     },
     {
+    title: "War 2",
+    rating: "⭐ 3.6 / 5",
+    poster: "https://upload.wikimedia.org/wikipedia/en/6/6a/War_2_2025.jpg",
+    summary: "Hrithik Roshan returns with high-voltage action, espionage, and YRF spy universe intensity.",
+    },
+    {
     title: "Salaar: Cease Fire",
     rating: "⭐ 4.1 / 5",
     poster: "https://upload.wikimedia.org/wikipedia/en/3/3f/Salaar_Part_1_%E2%80%93_Ceasefire.jpg",
