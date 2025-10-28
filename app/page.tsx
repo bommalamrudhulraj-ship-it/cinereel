@@ -19,7 +19,7 @@ export default function Home() {
     {
     title: "War 2",
     rating: "⭐ 3.6 / 5",
-    poster: "https://upload.wikimedia.org/wikipedia/en/6/6a/War_2_2025.jpg",
+    poster: "https://m.media-amazon.com/images/M/MV5BNzYwMWQ3ZmItNzBlNC00YWFjLTk0NjEtNzU2NjYxZjJhNjZjXkEyXkFqcGc@._V1_.jpg",
     summary: "Hrithik Roshan returns with high-voltage action, espionage, and YRF spy universe intensity.",
     },
     {
