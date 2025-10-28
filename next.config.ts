@@ -6,26 +6,31 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "upload.wikimedia.org",
+        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "m.media-amazon.com",
+        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "image.tmdb.org",
+        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "static1.colliderimages.com",
+        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "**.vercel-dns-017.com",
+        hostname: "encrypted-tbn0.gstatic.com",
+        port: "",
         pathname: "/**",
       },
     ],
