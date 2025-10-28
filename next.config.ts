@@ -6,22 +6,27 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "upload.wikimedia.org",
+        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "m.media-amazon.com",
+        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "image.tmdb.org",
+        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "encrypted-tbn0.gstatic.com", // fallback images Google uses
+        hostname: "static1.colliderimages.com",
+        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "static1.colliderimages.com", // Tron placeholder sometimes uses this
+        hostname: "**.vercel-dns-017.com",
+        pathname: "/**",
       },
     ],
   },
