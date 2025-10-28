@@ -57,9 +57,10 @@ export default function Home() {
             <Image
               src={movie.poster}
               alt={movie.title}
-              width={500}
-              height={700}
+              width={300}
+              height={450}
               className="w-full h-72 object-cover"
+              unoptimized={true}
             />
             <div className="p-4">
               <h2 className="text-xl font-bold text-white">{movie.title}</h2>
